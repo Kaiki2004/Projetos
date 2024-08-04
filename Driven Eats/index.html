@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Driven Eats</title>
+</head>
+
+<body>
+    <div id="topo">
+        <h1>DrivenEats</h1>
+        <h2>Sua comida em 6 minutos</h2>
+    </div>
+
+    <div id="comida">
+        <h1>Primeiro, seu prato</h1>
+        <div class="pratos">
+            <div class="prato borda_branca" onclick="selecionado(this, 'comida')">
+                <img src="imagens/projeto__driven-eats__imagens/pf_frango.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Frango Ying Yang </strong></p>
+                    <p class="descricao_prato">Um pouco de batata, um pouco de salada</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 14,90 </strong></p>
+                    <div>
+                        <span>
+                            <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'comida')">
+                <img src="imagens/projeto__driven-eats__imagens/pf_calabresa.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Arroz e calabresa</strong></p>
+                    <p class="descricao_prato">Um pouco de batata, acompanha feijão</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 14,90 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'comida')">
+                <img src="imagens/projeto__driven-eats__imagens/pf_carne.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Bife a cavalo</strong></p>
+                    <p class="descricao_prato">Um pouco de batata, um pouco de salada</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 14,90 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'comida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/pf_frango.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Frango Ying Yang </strong></p>
+                    <p class="descricao_prato">Um pouco de batata, um pouco de salada</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 14,90 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'comida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/pf_frango.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Frango Ying Yang </strong></p>
+                    <p class="descricao_prato">Um pouco de batata, um pouco de salada</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 14,90 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bebida">
+        <h1>Agora, sua bebida</h1>
+        <div class="pratos">
+            <div class="prato borda_branca" onclick="selecionado(this, 'bebida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/suco.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Suco de laranja</strong></p>
+                    <p class="descricao_prato">Copo de 500ml</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 7,50 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'bebida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/coca.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Coca-Cola </strong></p>
+                    <p class="descricao_prato">Lata 350ml</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,40</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'bebida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/fanta.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Fanta laraja </strong></p>
+                    <p class="descricao_prato">Lata 350ml</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,00</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'bebida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/suco.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Suco de laranja</strong></p>
+                    <p class="descricao_prato">Copo de 500ml</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 7,50 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'bebida')">
+
+                <img src="imagens/projeto__driven-eats__imagens/coca.png" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Coca-Cola </strong></p>
+                    <p class="descricao_prato">Lata 350ml</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,40</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sobremesa">
+        <h1>Por fim, sua sobremesa</h1>
+        <div class="pratos">
+            <div class="prato borda_branca" onclick="selecionado(this, 'sobremesa')">
+
+                <img src="imagens/projeto__driven-eats__imagens/pudim.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Pudim</strong></p>
+                    <p class="descricao_prato">Apenas pudim</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 7,90 </strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'sobremesa')">
+
+                <img src="imagens/projeto__driven-eats__imagens/brownie.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Brownie</strong></p>
+                    <p class="descricao_prato">Brownie de chocolate</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,40</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'sobremesa')">
+
+                <img src="imagens/projeto__driven-eats__imagens/mouse.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Mouse</strong></p>
+                    <p class="descricao_prato">Mouse de maracujá</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,50</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'sobremesa')">
+
+                <img src="imagens/projeto__driven-eats__imagens/pudim.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Pudim</strong></p>
+                    <p class="descricao_prato">Apenas pudim</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 7,90 </strong> </p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+
+            <div class="prato borda_branca" onclick="selecionado(this, 'sobremesa')">
+
+                <img src="imagens/projeto__driven-eats__imagens/mouse.jpg" alt="Frango">
+                <div class="descricao">
+                    <p class="nome_prato"><strong>Mouse</strong></p>
+                    <p class="descricao_prato">Mouse de maracujá</p>
+                </div>
+                <div>
+                    <p class="preco_prato"><strong>R$ 6,50</strong></p>
+                    <span>
+                        <ion-icon class="icon estado_off" name="checkmark-circle-outline"></ion-icon>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fechar_pedido">
+        <button id="fechar" class="cinza" onclick="fechar()">Selecione os 3 itens para fechar o
+            pedido</button>
+    </div>
+
+    <div id="branco" class="estado_off">
+        <div id="conta">
+            <h2>Confirmar pedido</h2>
+            <div id="info">
+                <div style="display: flex;">
+                    <p class="comida"></p><span class="valor_comida"></span>
+                </div>
+                <div style="display: flex;">
+                    <p class="bebida"></p><span class="valor_bebida"></span>
+                </div>
+                <div style="display: flex;">
+                    <p class="sobremesa"></p><span class="valor_sobremesa"></span>
+                </div>
+                <div style="display: flex;">
+                    <p class="total"></p><span class="valortotal"></span>
+                </div>
+            </div>
+            <div id="botoes">
+                <button id="comprar" onclick="comprar()">Confirmar pedido</button>
+                <button id="Cancelar" onclick="cancelar()">Cancelar</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="Driven_Eats.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
